@@ -11,10 +11,10 @@
         <copied_from_name>Copy of Create SN User ID Flow 2</copied_from_name>
         <description>Flow to create a RITM, automate the creating of the user id. Create a task only if there are issues or special instructions. Write results to the RITM.</description>
         <internal_name>create_sn_user_id_flow_2</internal_name>
-        <label_cache>[{"name":"8e8bae3e-98d0-428d-8a3a-4e9a4118814d.record","label":"1 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.additional_details","label":"8 - Get Catalog Variables➛additional_details","reference":"","reference_display":"additional_details","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"d42a1a0b-9d2b-4a5c-812c-f28d1b7c91ee.Record.user_name","label":"9➛User Record➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"d42a1a0b-9d2b-4a5c-812c-f28d1b7c91ee.status","label":"9 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_9.name","label":"8 - Get Catalog Variables➛group_9➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_8.name","label":"8 - Get Catalog Variables➛group_8➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_7.name","label":"8 - Get Catalog Variables➛group_7➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_6.name","label":"8 - Get Catalog Variables➛group_6➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_5.name","label":"8 - Get Catalog Variables➛group_5➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_4.name","label":"8 - Get Catalog Variables➛group_4➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_3.name","label":"8 - Get Catalog Variables➛group_3➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_2.name","label":"8 - Get Catalog Variables➛group_2➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name","label":"8 - Get Catalog Variables➛group_1➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"e8d92bde-fdd6-4e6c-9bf1-bde21c291f9c.record.name","label":"13 - Create Record➛User Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"e8d92bde-fdd6-4e6c-9bf1-bde21c291f9c.record.user_name","label":"13 - Create Record➛User Record➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_9","label":"8 - Get Catalog Variables➛group_9","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_8","label":"8 - Get Catalog Variables➛group_8","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_7","label":"8 - Get Catalog Variables➛group_7","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_6","label":"8 - Get Catalog Variables➛group_6","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_5","label":"8 - Get Catalog Variables➛group_5","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_4","label":"8 - Get Catalog Variables➛group_4","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_3","label":"8 - Get Catalog Variables➛group_3","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_2","label":"8 - Get Catalog Variables➛group_2","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"e8d92bde-fdd6-4e6c-9bf1-bde21c291f9c.record","label":"13 - Create Record➛User Record","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1","label":"8 - Get Catalog Variables➛group_1","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"cf16f7b9-3fff-4121-831e-277b87032e2d.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.cb6daa2447543110161c2d82e36d4378}}","label":"Onboarding Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_by_user_id","label":"8➛requested_by_user_id","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_user_id","label":"8 - Get Catalog Variables➛requested_for_user_id","reference":"","reference_display":"requested_for_user_id","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_email","label":"8 - Get Catalog Variables➛requested_for_email","reference":"","reference_display":"requested_for_email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_first_name","label":"8 - Get Catalog Variables➛requested_for_first_name","reference":"","reference_display":"requested_for_first_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_last_name","label":"8 - Get Catalog Variables➛requested_for_last_name","reference":"","reference_display":"requested_for_last_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_business_phone","label":"8 - Get Catalog Variables➛requested_for_business_phone","reference":"","reference_display":"requested_for_business_phone","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_mobile","label":"8 - Get Catalog Variables➛requested_for_mobile","reference":"","reference_display":"requested_for_mobile","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_department","label":"8 - Get Catalog Variables➛requested_for_department","reference":"cmn_department","reference_display":"Department","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_manager","label":"8 - Get Catalog Variables➛requested_for_manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.groups_needed","label":"8 - Get Catalog Variables➛groups_needed","reference":"","reference_display":"groups_needed","type":"choice","base_type":"choice","choices":[{"label":"0","value":"0","order":100.0},{"label":"1","value":"1","order":100.0},{"label":"2","value":"2","order":100.0},{"label":"3","value":"3","order":100.0},{"label":"4","value":"4","order":100.0},{"label":"5","value":"5","order":100.0},{"label":"6","value":"6","order":100.0},{"label":"7","value":"7","order":100.0},{"label":"8","value":"8","order":100.0},{"label":"9","value":"9","order":100.0}],"attributes":{"catalogType":"3","catalogTypeLabel":"Multiple Choice"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.manual_instructions","label":"8 - Get Catalog Variables➛manual_instructions","reference":"","reference_display":"manual_instructions","type":"boolean","base_type":"boolean","attributes":{"catalogType":"7","catalogTypeLabel":"CheckBox"}}]</label_cache>
+        <label_cache>[{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.manual_instructions","label":"8➛manual_instructions","reference":"","reference_display":"manual_instructions","type":"boolean","base_type":"boolean","attributes":{"catalogType":"7","catalogTypeLabel":"CheckBox"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.groups_needed","label":"8 - Get Catalog Variables➛groups_needed","reference":"","reference_display":"groups_needed","type":"choice","base_type":"choice","choices":[{"label":"0","value":"0","order":100.0},{"label":"1","value":"1","order":100.0},{"label":"2","value":"2","order":100.0},{"label":"3","value":"3","order":100.0},{"label":"4","value":"4","order":100.0},{"label":"5","value":"5","order":100.0},{"label":"6","value":"6","order":100.0},{"label":"7","value":"7","order":100.0},{"label":"8","value":"8","order":100.0},{"label":"9","value":"9","order":100.0}],"attributes":{"catalogType":"3","catalogTypeLabel":"Multiple Choice"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_manager","label":"8 - Get Catalog Variables➛requested_for_manager","reference":"sys_user","reference_display":"requested_for_manager","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_department","label":"8 - Get Catalog Variables➛requested_for_department","reference":"cmn_department","reference_display":"requested_for_department","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_mobile","label":"8 - Get Catalog Variables➛requested_for_mobile","reference":"","reference_display":"requested_for_mobile","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_business_phone","label":"8 - Get Catalog Variables➛requested_for_business_phone","reference":"","reference_display":"requested_for_business_phone","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_last_name","label":"8 - Get Catalog Variables➛requested_for_last_name","reference":"","reference_display":"requested_for_last_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_first_name","label":"8 - Get Catalog Variables➛requested_for_first_name","reference":"","reference_display":"requested_for_first_name","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_email","label":"8 - Get Catalog Variables➛requested_for_email","reference":"","reference_display":"requested_for_email","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_for_user_id","label":"8 - Get Catalog Variables➛requested_for_user_id","reference":"","reference_display":"requested_for_user_id","type":"string","base_type":"string","attributes":{"catalogType":"6","catalogTypeLabel":"Single Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.requested_by_user_id","label":"8➛requested_by_user_id","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"{{static.cb6daa2447543110161c2d82e36d4378}}","label":"Onboarding Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"cf16f7b9-3fff-4121-831e-277b87032e2d.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1","label":"8 - Get Catalog Variables➛group_1","reference":"sys_user_group","reference_display":"group_1","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"e8d92bde-fdd6-4e6c-9bf1-bde21c291f9c.record","label":"13 - Create Record➛User Record","reference":"sys_user","reference_display":"User Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_2","label":"8 - Get Catalog Variables➛group_2","reference":"sys_user_group","reference_display":"group_2","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_3","label":"8 - Get Catalog Variables➛group_3","reference":"sys_user_group","reference_display":"group_3","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_4","label":"8 - Get Catalog Variables➛group_4","reference":"sys_user_group","reference_display":"group_4","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_5","label":"8 - Get Catalog Variables➛group_5","reference":"sys_user_group","reference_display":"group_5","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_6","label":"8 - Get Catalog Variables➛group_6","reference":"sys_user_group","reference_display":"group_6","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_7","label":"8 - Get Catalog Variables➛group_7","reference":"sys_user_group","reference_display":"group_7","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_8","label":"8 - Get Catalog Variables➛group_8","reference":"sys_user_group","reference_display":"group_8","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_9","label":"8 - Get Catalog Variables➛group_9","reference":"sys_user_group","reference_display":"group_9","type":"reference","base_type":"reference","attributes":{"catalogType":"8","catalogTypeLabel":"Reference"}},{"name":"e8d92bde-fdd6-4e6c-9bf1-bde21c291f9c.record.user_name","label":"13 - Create Record➛User Record➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"e8d92bde-fdd6-4e6c-9bf1-bde21c291f9c.record.name","label":"13 - Create Record➛User Record➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name","label":"8➛group_1➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_2.name","label":"8➛group_2➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_3.name","label":"8➛group_3➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_4.name","label":"8➛group_4➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_5.name","label":"8➛group_5➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_6.name","label":"8➛group_6➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_7.name","label":"8➛group_7➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_8.name","label":"8➛group_8➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_9.name","label":"8➛group_9➛Name","reference":"","reference_display":"Name","type":"string","base_type":"string","parent_table_name":"sys_user_group","column_name":"name"},{"name":"d42a1a0b-9d2b-4a5c-812c-f28d1b7c91ee.status","label":"9 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"d42a1a0b-9d2b-4a5c-812c-f28d1b7c91ee.Record.user_name","label":"9➛User Record➛User ID","reference":"","reference_display":"User ID","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"user_name"},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.additional_details","label":"8 - Get Catalog Variables➛additional_details","reference":"","reference_display":"additional_details","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"8e8bae3e-98d0-428d-8a3a-4e9a4118814d.record","label":"1 - Update Record➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.manual_instructions_details_vs","label":"8 - Get Catalog Variables➛manual_instructions_details_vs","reference":"","reference_display":"manual_instructions_details_vs","type":"multi_small","base_type":"multi_small","attributes":{"catalogType":"2","catalogTypeLabel":"Multi Line Text"}},{"name":"7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.manual_instructions_vs","label":"8 - Get Catalog Variables➛manual_instructions_vs","reference":"","reference_display":"manual_instructions_vs","type":"boolean","base_type":"boolean","attributes":{"catalogType":"7","catalogTypeLabel":"CheckBox"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <name>Create SN User ID Flow 2</name>
+        <name>Create SN User ID Flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -31,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>54d5966547d87110161c2d82e36d43a1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Create SN User ID Flow 2</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Create SN User ID Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="MyCatalogItems" source="060a3bb747403110161c2d82e36d437f">060a3bb747403110161c2d82e36d437f</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_update_name>sys_hub_flow_54d5966547d87110161c2d82e36d43a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:43</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:59:38</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=54d5966547d87110161c2d82e36d43a1"/>
@@ -48,16 +48,16 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <name>Service Catalog</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:42</sys_created_on>
         <sys_id>7cd5d66547d87110161c2d82e36d438e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -83,7 +83,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -119,14 +119,14 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</model>
+        <model display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</model>
         <model_id>54d5966547d87110161c2d82e36d43a1</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_54d5966547d87110161c2d82e36d43a1</name>
         <next_element/>
         <order>100</order>
         <primary>false</primary>
-        <read_only>true</read_only>
+        <read_only>false</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -142,14 +142,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>68d5966547d87110161c2d82e36d43ad</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -166,7 +166,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -202,7 +202,7 @@
         <label>Request Item</label>
         <mandatory>true</mandatory>
         <max_length>32</max_length>
-        <model display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</model>
+        <model display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</model>
         <model_id>54d5966547d87110161c2d82e36d43a1</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_54d5966547d87110161c2d82e36d43a1</name>
@@ -225,14 +225,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:40</sys_created_on>
         <sys_id>e8d5966547d87110161c2d82e36d43a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:40</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:26:57</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -247,7 +247,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=54d5966547d87110161c2d82e36d43a1"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=54d5966547d87110161c2d82e36d43a1"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=54d5966547d87110161c2d82e36d43a1^sys_idNOT IN2cd5966547d87110161c2d82e36d43fb,34d5d66547d87110161c2d82e36d433d,74d5d66547d87110161c2d82e36d430f,7cd5d66547d87110161c2d82e36d438c,a0d5966547d87110161c2d82e36d43f3,b0d5d66547d87110161c2d82e36d4325,b0d5d66547d87110161c2d82e36d4343,b8d5d66547d87110161c2d82e36d4348,e4d5d66547d87110161c2d82e36d4303,e4d5d66547d87110161c2d82e36d4309,f4d5d66547d87110161c2d82e36d431f,f4d5d66547d87110161c2d82e36d4337,f8d5d66547d87110161c2d82e36d4318"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=54d5966547d87110161c2d82e36d43a1^sys_idNOT IN2cd5966547d87110161c2d82e36d43fb,74d5d66547d87110161c2d82e36d430f,7cd5d66547d87110161c2d82e36d438c,a0d5966547d87110161c2d82e36d43f3,b0d5d66547d87110161c2d82e36d4325,b8d5d66547d87110161c2d82e36d4348,e4d5d66547d87110161c2d82e36d4303,e4d5d66547d87110161c2d82e36d4309,f4d5d66547d87110161c2d82e36d431f,f4d5d66547d87110161c2d82e36d4337,f8d5d66547d87110161c2d82e36d4318"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -256,17 +256,17 @@
         <comment>Approval from Onboarding Team</comment>
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <order>2</order>
         <parent_ui_id>ad218f02-8887-4879-8f38-e596c54da555</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>2cd5966547d87110161c2d82e36d43fb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>cf16f7b9-3fff-4121-831e-277b87032e2d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2cd5966547d87110161c2d82e36d43fb"/>
@@ -404,111 +404,22 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
-        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
-        <comment/>
-        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
-        <order>18</order>
-        <parent_ui_id>abee931c-2d53-456d-90d7-4a97e6add844</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:42</sys_created_on>
-        <sys_id>34d5d66547d87110161c2d82e36d433d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
-        <ui_id>21fd2cd2-aada-4f74-bd41-fbd625ab2a91</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=34d5d66547d87110161c2d82e36d433d"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>34d5d66547d87110161c2d82e36d433d</document_key>
-        <order>50</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:42</sys_created_on>
-        <sys_id>30d5d66547d87110161c2d82e36d433f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
-        <value>sc_req_item</value>
-        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>34d5d66547d87110161c2d82e36d433d</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:42</sys_created_on>
-        <sys_id>7cd5d66547d87110161c2d82e36d433e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
-        <value>comments=Automation stopped for Manual Instructions.  User nd group automation is complete. Please complete the manual instructions to proceed.^state=2</value>
-        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=34d5d66547d87110161c2d82e36d433d"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>record</field>
-        <id>34d5d66547d87110161c2d82e36d433d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:42</sys_created_on>
-        <sys_id>f8d5d66547d87110161c2d82e36d433e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value>{{Service Catalog_1.request_item}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>34d5d66547d87110161c2d82e36d433d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:42</sys_created_on>
-        <sys_id>74d5d66547d87110161c2d82e36d433e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>34d5d66547d87110161c2d82e36d433d</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:42</sys_created_on>
-        <sys_id>38d5d66547d87110161c2d82e36d433e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=34d5d66547d87110161c2d82e36d433d"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=34d5d66547d87110161c2d82e36d433d"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
         <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <comment>Get Requested for Variables</comment>
         <compiled_snapshot>330ba3abc31013002841b63b12d3aee8</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <order>8</order>
         <parent_ui_id>ad218f02-8887-4879-8f38-e596c54da555</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>74d5d66547d87110161c2d82e36d430f</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:43</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>7cb0f71e-cb9e-4fd4-9792-b105736fc9e4</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=74d5d66547d87110161c2d82e36d430f"/>
@@ -534,10 +445,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>b0d5d66547d87110161c2d82e36d4311</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
-        <value>191df7bb47403110161c2d82e36d43e6:item_option_new,d230844c47503110161c2d82e36d4375:item_option_new,9950844c47503110161c2d82e36d4362:item_option_new,ac6e3bbb47403110161c2d82e36d4395:item_option_new,f48eb33f47403110161c2d82e36d43bd:item_option_new,1e9e77bb47403110161c2d82e36d4373:item_option_new,57ae773f47403110161c2d82e36d430d:item_option_new,9ffe3f3f47403110161c2d82e36d43d1:item_option_new,984f737f47403110161c2d82e36d437c:item_option_new,8062c8cc47503110161c2d82e36d4318:item_option_new,dd1308cc47503110161c2d82e36d4305:item_option_new,0453040047903110161c2d82e36d4349:item_option_new,67734ccc47503110161c2d82e36d434a:item_option_new,a593804047903110161c2d82e36d43d0:item_option_new,c1b38c4047903110161c2d82e36d43af:item_option_new,75d38c4047903110161c2d82e36d438c:item_option_new,34f3884047903110161c2d82e36d43f9:item_option_new,0f04408047903110161c2d82e36d4312:item_option_new,7e24c08047903110161c2d82e36d43a8:item_option_new,dc87008447903110161c2d82e36d43b9:item_option_new,6bdb777b47403110161c2d82e36d437f:item_option_new</value>
+        <sys_updated_on>2023-07-27 21:30:47</sys_updated_on>
+        <value>191df7bb47403110161c2d82e36d43e6:item_option_new,d230844c47503110161c2d82e36d4375:item_option_new,9950844c47503110161c2d82e36d4362:item_option_new,ac6e3bbb47403110161c2d82e36d4395:item_option_new,f48eb33f47403110161c2d82e36d43bd:item_option_new,1e9e77bb47403110161c2d82e36d4373:item_option_new,57ae773f47403110161c2d82e36d430d:item_option_new,9ffe3f3f47403110161c2d82e36d43d1:item_option_new,984f737f47403110161c2d82e36d437c:item_option_new,8062c8cc47503110161c2d82e36d4318:item_option_new,dd1308cc47503110161c2d82e36d4305:item_option_new,0453040047903110161c2d82e36d4349:item_option_new,67734ccc47503110161c2d82e36d434a:item_option_new,a593804047903110161c2d82e36d43d0:item_option_new,c1b38c4047903110161c2d82e36d43af:item_option_new,75d38c4047903110161c2d82e36d438c:item_option_new,34f3884047903110161c2d82e36d43f9:item_option_new,0f04408047903110161c2d82e36d4312:item_option_new,7e24c08047903110161c2d82e36d43a8:item_option_new,cdc0ed2147d47110161c2d82e36d43e6:item_option_new,b6a02d2d47947110161c2d82e36d4326:item_option_new</value>
         <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=74d5d66547d87110161c2d82e36d430f"/>
@@ -587,17 +498,17 @@
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
-        <order>23</order>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
+        <order>21</order>
         <parent_ui_id>f8a70cf9-77e1-499f-93b6-dc6163390245</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:42</sys_created_on>
         <sys_id>7cd5d66547d87110161c2d82e36d438c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
         <ui_id>51efb265-8a69-469e-89af-ac422bff8fd5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=7cd5d66547d87110161c2d82e36d438c"/>
@@ -676,17 +587,17 @@
         <comment>Setting to pending approval and updating the record</comment>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <order>1</order>
         <parent_ui_id>ad218f02-8887-4879-8f38-e596c54da555</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>a0d5966547d87110161c2d82e36d43f3</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>8e8bae3e-98d0-428d-8a3a-4e9a4118814d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a0d5966547d87110161c2d82e36d43f3"/>
@@ -778,17 +689,17 @@
         <comment/>
         <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <order>13</order>
         <parent_ui_id>ad218f02-8887-4879-8f38-e596c54da555</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:42</sys_created_on>
         <sys_id>b0d5d66547d87110161c2d82e36d4325</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
         <ui_id>e8d92bde-fdd6-4e6c-9bf1-bde21c291f9c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b0d5d66547d87110161c2d82e36d4325"/>
@@ -836,86 +747,22 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
-        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
-        <comment/>
-        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
-        <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
-        <order>19</order>
-        <parent_ui_id>abee931c-2d53-456d-90d7-4a97e6add844</parent_ui_id>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:42</sys_created_on>
-        <sys_id>b0d5d66547d87110161c2d82e36d4343</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
-        <ui_id>42e3d70f-d9bc-443c-848f-d0efa3202d72</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=b0d5d66547d87110161c2d82e36d4343"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_action_instance</document>
-        <document_key>b0d5d66547d87110161c2d82e36d4343</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:42</sys_created_on>
-        <sys_id>b4d5d66547d87110161c2d82e36d4344</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
-        <value>sc_task</value>
-        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
-    </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b0d5d66547d87110161c2d82e36d4343"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>table_name</field>
-        <id>b0d5d66547d87110161c2d82e36d4343</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:42</sys_created_on>
-        <sys_id>70d5d66547d87110161c2d82e36d4344</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>values</field>
-        <id>b0d5d66547d87110161c2d82e36d4343</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:42</sys_created_on>
-        <sys_id>34d5d66547d87110161c2d82e36d4344</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
-        <value>short_description=Manual Instructions needing administrator work. 
-Manual Instruciton: {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.additional_details}}^assigned_to={"display":"System Administrator","value":"6816f79cc0a8016401c5a33be04be441","table":"sys_user","sys_id":"6816f79cc0a8016401c5a33be04be441"}^request_item={{8e8bae3e-98d0-428d-8a3a-4e9a4118814d.record}}</value>
-    </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=b0d5d66547d87110161c2d82e36d4343"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b0d5d66547d87110161c2d82e36d4343"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
-        <order>21</order>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
+        <order>19</order>
         <parent_ui_id>ad218f02-8887-4879-8f38-e596c54da555</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:42</sys_created_on>
         <sys_id>b8d5d66547d87110161c2d82e36d4348</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
         <ui_id>a456862a-d2c3-4d2e-958a-1b0debe8f057</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b8d5d66547d87110161c2d82e36d4348"/>
@@ -994,17 +841,17 @@ Manual Instruciton: {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.additional_details}}^
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <order>4</order>
         <parent_ui_id>d62f2906-49ee-4b8a-8d74-34cd608471af</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>e4d5d66547d87110161c2d82e36d4303</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>f388076a-46a4-49f1-a388-c30c8d143d5e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e4d5d66547d87110161c2d82e36d4303"/>
@@ -1083,17 +930,17 @@ Manual Instruciton: {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.additional_details}}^
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <order>7</order>
         <parent_ui_id>2d6652e9-7af8-4503-b69b-cdc4d3c813ae</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>e4d5d66547d87110161c2d82e36d4309</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>040b0c97-607c-438f-ae21-b28181e6a8ab</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e4d5d66547d87110161c2d82e36d4309"/>
@@ -1172,17 +1019,17 @@ Manual Instruciton: {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.additional_details}}^
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <order>11</order>
         <parent_ui_id>ae67375a-e853-4139-ab78-638a91e78597</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:42</sys_created_on>
         <sys_id>f4d5d66547d87110161c2d82e36d431f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>14f82d5c-a155-49b1-add6-df1e702e4d63</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f4d5d66547d87110161c2d82e36d431f"/>
@@ -1247,17 +1094,17 @@ Manual Instruciton: {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.additional_details}}^
         <comment/>
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <order>16</order>
         <parent_ui_id>ad218f02-8887-4879-8f38-e596c54da555</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:42</sys_created_on>
         <sys_id>f4d5d66547d87110161c2d82e36d4337</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
         <ui_id>973bb2b9-48b1-47b8-a353-85d636548daa</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f4d5d66547d87110161c2d82e36d4337"/>
@@ -1323,17 +1170,17 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <comment/>
         <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <order>9</order>
         <parent_ui_id>ad218f02-8887-4879-8f38-e596c54da555</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:42</sys_created_on>
         <sys_id>f8d5d66547d87110161c2d82e36d4318</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>d42a1a0b-9d2b-4a5c-812c-f28d1b7c91ee</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f8d5d66547d87110161c2d82e36d4318"/>
@@ -1404,11 +1251,11 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=f8d5d66547d87110161c2d82e36d4318"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=f8d5d66547d87110161c2d82e36d4318"/>
-    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=54d5966547d87110161c2d82e36d43a1^sys_idNOT IN78d5d66547d87110161c2d82e36d438f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=54d5966547d87110161c2d82e36d43a1^sys_idNOT IN78d5d66547d87110161c2d82e36d438f,ce1cd26d47d87110161c2d82e36d4386"/>
     <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <inputs/>
         <inputs/>
         <order>15</order>
@@ -1419,10 +1266,10 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:42</sys_created_on>
         <sys_id>78d5d66547d87110161c2d82e36d438f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:42</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
         <ui_id>86ddfd50-2df1-4237-9491-dc9905f4ef68</ui_id>
     </sys_hub_sub_flow_instance>
     <sys_variable_value action="delete_multiple" query="document_key=78d5d66547d87110161c2d82e36d438f"/>
@@ -1659,79 +1506,191 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <xml_view>false</xml_view>
     </sys_hub_sub_flow_instance_inputs>
     <sys_hub_input_scripts action="delete_multiple" query="instance=78d5d66547d87110161c2d82e36d438f"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=54d5966547d87110161c2d82e36d43a1^sys_idNOT IN28d5966547d87110161c2d82e36d43e5,2cd5966547d87110161c2d82e36d43b4,2cd5966547d87110161c2d82e36d43c8,60d5966547d87110161c2d82e36d43e9,64d5966547d87110161c2d82e36d43c4,64d5966547d87110161c2d82e36d43cf,64d5966547d87110161c2d82e36d43df,a4d5966547d87110161c2d82e36d43cb,e8d5966547d87110161c2d82e36d43eb,ecd5966547d87110161c2d82e36d43e1"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">580b9fb847143110161c2d82e36d4390</block>
+    <sys_hub_sub_flow_instance action="INSERT_OR_UPDATE">
         <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
         <display_text/>
-        <extended_inputs/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <inputs/>
         <inputs/>
-        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>17</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>ad218f02-8887-4879-8f38-e596c54da555</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <order>18</order>
+        <parent_ui_id>eb38e83e-ae73-4829-8afa-b94c02d9a4e4</parent_ui_id>
+        <subflow display_value="Manual Instructions Flow">91760e2147987110161c2d82e36d4349</subflow>
+        <subflow_instance_inputs/>
+        <sys_class_name>sys_hub_sub_flow_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:41</sys_created_on>
-        <sys_id>28d5966547d87110161c2d82e36d43e5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_created_on>2023-07-27 21:45:06</sys_created_on>
+        <sys_id>ce1cd26d47d87110161c2d82e36d4386</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
-        <ui_id>abee931c-2d53-456d-90d7-4a97e6add844</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=28d5966547d87110161c2d82e36d43e5"/>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
+        <ui_id>c76ad996-82b5-47a1-be75-57abf1338fd1</ui_id>
+    </sys_hub_sub_flow_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce1cd26d47d87110161c2d82e36d4386"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_flow_logic</document>
-        <document_key>28d5966547d87110161c2d82e36d43e5</document_key>
-        <order>10</order>
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>ce1cd26d47d87110161c2d82e36d4386</document_key>
+        <order>0</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:41</sys_created_on>
-        <sys_id>a4d5966547d87110161c2d82e36d43e8</sys_id>
+        <sys_created_on>2023-07-27 21:45:06</sys_created_on>
+        <sys_id>021cd26d47d87110161c2d82e36d43a4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
-        <value>If manual instructions is true</value>
-        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+        <sys_updated_on>2023-07-27 21:45:06</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait For Completion">8e1cd26d47d87110161c2d82e36d4387</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=28d5966547d87110161c2d82e36d43e5"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition</field>
-        <id>28d5966547d87110161c2d82e36d43e5</id>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_sub_flow_instance</document>
+        <document_key>ce1cd26d47d87110161c2d82e36d4386</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:41</sys_created_on>
-        <sys_id>24d5966547d87110161c2d82e36d43e8</sys_id>
+        <sys_created_on>2023-07-27 21:45:06</sys_created_on>
+        <sys_id>ce1cd26d47d87110161c2d82e36d43a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
-        <value>{{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.manual_instructions}}=true</value>
+        <sys_updated_on>2023-07-27 21:45:06</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Manual Instructions flag">25760e2147987110161c2d82e36d434b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ce1cd26d47d87110161c2d82e36d4386"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>manual_instructions_field</field>
+        <id>ce1cd26d47d87110161c2d82e36d4386</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 21:45:06</sys_created_on>
+        <sys_id>4e1cd26d47d87110161c2d82e36d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:45:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_91760e2147987110161c2d82e36d4349</table>
+        <value>{{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.manual_instructions_details_vs}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>condition_name</field>
-        <id>28d5966547d87110161c2d82e36d43e5</id>
+        <field>manual_instructions_flag</field>
+        <id>ce1cd26d47d87110161c2d82e36d4386</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:41</sys_created_on>
-        <sys_id>60d5966547d87110161c2d82e36d43e8</sys_id>
+        <sys_created_on>2023-07-27 21:45:06</sys_created_on>
+        <sys_id>8a1cd26d47d87110161c2d82e36d43a2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
-        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <sys_updated_on>2023-07-27 21:45:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_91760e2147987110161c2d82e36d4349</table>
+        <value>{{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.manual_instructions_vs}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ritm_to_update</field>
+        <id>ce1cd26d47d87110161c2d82e36d4386</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 21:45:06</sys_created_on>
+        <sys_id>c21cd26d47d87110161c2d82e36d43a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:45:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_91760e2147987110161c2d82e36d4349</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait_for_completion</field>
+        <id>ce1cd26d47d87110161c2d82e36d4386</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 21:45:06</sys_created_on>
+        <sys_id>8e1cd26d47d87110161c2d82e36d43a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:45:06</sys_updated_on>
+        <table>var__m_sys_hub_sub_flow_instance_inputs_ce1cd26d47d87110161c2d82e36d4386</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=28d5966547d87110161c2d82e36d43e5"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=28d5966547d87110161c2d82e36d43e5"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_sub_flow_instance_inputs_ce1cd26d47d87110161c2d82e36d4386^id=ce1cd26d47d87110161c2d82e36d4386"/>
+    <sys_hub_sub_flow_instance_inputs action="delete_multiple" query="model=ce1cd26d47d87110161c2d82e36d4386^sys_idNOT IN8e1cd26d47d87110161c2d82e36d4387"/>
+    <sys_hub_sub_flow_instance_inputs action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,fd_hide_inline_script_widget=true,uiType=boolean,uiTypeLabel=True/False</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wait_for_completion</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Wait For Completion</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="">ce1cd26d47d87110161c2d82e36d4386</model>
+        <model_id>ce1cd26d47d87110161c2d82e36d4386</model_id>
+        <model_table>sys_hub_flow_logic_ext_input</model_table>
+        <name>var__m_sys_hub_sub_flow_instance_inputs_ce1cd26d47d87110161c2d82e36d4386</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_sub_flow_instance_inputs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 21:45:06</sys_created_on>
+        <sys_id>8e1cd26d47d87110161c2d82e36d4387</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:45:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_sub_flow_instance_inputs>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ce1cd26d47d87110161c2d82e36d4386"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=54d5966547d87110161c2d82e36d43a1^sys_idNOT IN2cd5966547d87110161c2d82e36d43b4,2cd5966547d87110161c2d82e36d43c8,64d5966547d87110161c2d82e36d43c4,64d5966547d87110161c2d82e36d43cf,64d5966547d87110161c2d82e36d43df,a4d5966547d87110161c2d82e36d43cb,e4d8926947d87110161c2d82e36d432e,e8d5966547d87110161c2d82e36d43eb,ecd5966547d87110161c2d82e36d43e1"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">2364533447143110161c2d82e36d4397</block>
         <comment/>
@@ -1740,7 +1699,7 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1753,10 +1712,10 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>2cd5966547d87110161c2d82e36d43b4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>ad218f02-8887-4879-8f38-e596c54da555</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1772,7 +1731,7 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1785,10 +1744,10 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>2cd5966547d87110161c2d82e36d43c8</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>f6735dbf-9ecb-4afa-8536-e360abec0307</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1797,38 +1756,6 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2cd5966547d87110161c2d82e36d43c8"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2cd5966547d87110161c2d82e36d43c8"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">de813c6147147110161c2d82e36d43f4</block>
-        <comment/>
-        <connected_to/>
-        <decision_table/>
-        <decision_table_inputs/>
-        <display_text/>
-        <extended_inputs/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
-        <flow_variable/>
-        <flow_variables_assigned/>
-        <inputs/>
-        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
-        <order>20</order>
-        <outputs_assigned/>
-        <outputs_to_assign/>
-        <parent_ui_id>abee931c-2d53-456d-90d7-4a97e6add844</parent_ui_id>
-        <sys_class_name>sys_hub_flow_logic</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-27 21:17:41</sys_created_on>
-        <sys_id>60d5966547d87110161c2d82e36d43e9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
-        <ui_id>7f4ce3cf-b186-43d3-8e05-ce625d1c8adc</ui_id>
-        <workflow_inputs/>
-        <workflow_reference/>
-    </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=60d5966547d87110161c2d82e36d43e9"/>
-    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=60d5966547d87110161c2d82e36d43e9"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=60d5966547d87110161c2d82e36d43e9"/>
-    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">ac72b66847543110161c2d82e36d4357</block>
         <comment>Request Rejected</comment>
         <connected_to/>
@@ -1836,7 +1763,7 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1850,10 +1777,10 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>64d5966547d87110161c2d82e36d43c4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>d62f2906-49ee-4b8a-8d74-34cd608471af</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1908,7 +1835,7 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1922,10 +1849,10 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>64d5966547d87110161c2d82e36d43cf</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>ae67375a-e853-4139-ab78-638a91e78597</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1980,7 +1907,7 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1993,10 +1920,10 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>64d5966547d87110161c2d82e36d43df</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
         <ui_id>0e1471b1-b6b2-40a4-b4a0-20d3735a9804</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2012,7 +1939,7 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -2026,10 +1953,10 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>a4d5966547d87110161c2d82e36d43cb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:01</sys_updated_on>
         <ui_id>2d6652e9-7af8-4503-b69b-cdc4d3c813ae</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2077,6 +2004,78 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
     <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a4d5966547d87110161c2d82e36d43cb"/>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a4d5966547d87110161c2d82e36d43cb"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">6cd8926947d87110161c2d82e36d432d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>17</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>ad218f02-8887-4879-8f38-e596c54da555</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 21:30:48</sys_created_on>
+        <sys_id>e4d8926947d87110161c2d82e36d432e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
+        <ui_id>eb38e83e-ae73-4829-8afa-b94c02d9a4e4</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e4d8926947d87110161c2d82e36d432e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e4d8926947d87110161c2d82e36d432e</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 21:30:48</sys_created_on>
+        <sys_id>acd8926947d87110161c2d82e36d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:30:48</sys_updated_on>
+        <value>Manual Instructions is true</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e4d8926947d87110161c2d82e36d432e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>e4d8926947d87110161c2d82e36d432e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 21:54:02</sys_created_on>
+        <sys_id>852e96ed47d87110161c2d82e36d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.manual_instructions_vs}}=true</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>e4d8926947d87110161c2d82e36d432e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 21:30:48</sys_created_on>
+        <sys_id>28d8926947d87110161c2d82e36d433e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 21:30:48</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e4d8926947d87110161c2d82e36d432e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e4d8926947d87110161c2d82e36d432e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">3764533447143110161c2d82e36d43d9</block>
         <comment/>
         <connected_to/>
@@ -2084,12 +2083,12 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
         <logic_definition display_value="Top Level Catch">35d60003e6022010a5e40cdd1254dd23</logic_definition>
-        <order>22</order>
+        <order>20</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2097,10 +2096,10 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>e8d5966547d87110161c2d82e36d43eb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
         <ui_id>f8a70cf9-77e1-499f-93b6-dc6163390245</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2145,7 +2144,7 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Create SN User ID Flow 2">54d5966547d87110161c2d82e36d43a1</flow>
+        <flow display_value="Create SN User ID Flow">54d5966547d87110161c2d82e36d43a1</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -2159,10 +2158,10 @@ Added to groups {{7cb0f71e-cb9e-4fd4-9792-b105736fc9e4.group_1.name}}, {{7cb0f71
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-07-27 21:17:41</sys_created_on>
         <sys_id>ecd5966547d87110161c2d82e36d43e1</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 21:17:41</sys_updated_on>
+        <sys_updated_on>2023-07-27 21:54:02</sys_updated_on>
         <ui_id>5ef588ca-634c-413e-afec-768a1d410433</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
