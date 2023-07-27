@@ -6,9 +6,9 @@
         <applies_req_item>false</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
-        <applies_to>item</applies_to>
-        <cat_item display_value="Create ServiceNow User ID">bd1b3b3b47403110161c2d82e36d437d</cat_item>
-        <cat_variable>IO:dc87008447903110161c2d82e36d43b9</cat_variable>
+        <applies_to>set</applies_to>
+        <cat_item/>
+        <cat_variable>IO:cdc0ed2147d47110161c2d82e36d43e6</cat_variable>
         <condition/>
         <description/>
         <field/>
@@ -23,8 +23,8 @@
    }
 	// Sets the Mandadory and dispaly values to true or false by getting the value from the checkbox field. 
 	// the if then else failed to work for the else part of the statement.
-  		g_form.setMandatory('additional_details', g_form.getValue('manual_instructions'));
-		g_form.setDisplay('additional_details', g_form.getValue('manual_instructions'));
+  		g_form.setMandatory('manual_instructions_details_vs', g_form.getValue('manual_instructions_vs'));
+		g_form.setDisplay('manual_instructions_details_vs', g_form.getValue('manual_instructions_vs'));
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -32,7 +32,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5e0935a047903110161c2d82e36d438c</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Create SN User ID additional instruction</sys_name>
         <sys_overrides/>
         <sys_package display_value="MyCatalogItems" source="060a3bb747403110161c2d82e36d437f">060a3bb747403110161c2d82e36d437f</sys_package>
@@ -40,11 +40,11 @@
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
         <sys_update_name>catalog_script_client_5e0935a047903110161c2d82e36d438c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-27 13:01:51</sys_updated_on>
+        <sys_updated_on>2023-07-27 17:37:40</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
-        <variable_set/>
+        <variable_set display_value="Finalize section">d45e596147d47110161c2d82e36d4371</variable_set>
         <view/>
     </catalog_script_client>
 </record_update>
