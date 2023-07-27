@@ -24,10 +24,10 @@
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
-        <help_text/>
+        <help_text>Add special instructions. It will cause a task to the administrator to complete.</help_text>
         <hidden>false</hidden>
         <include_none>false</include_none>
-        <instructions/>
+        <instructions><![CDATA[<p>Add special instructions. It will cause a task to the administrator to complete.</p>]]></instructions>
         <layout>normal</layout>
         <list_table/>
         <lookup_label/>
@@ -41,13 +41,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>formatter5</name>
-        <order>800</order>
+        <name>additional_details</name>
+        <order>3600</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text/>
+        <question_text>Additional Details?</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -75,19 +75,19 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-24 16:38:00</sys_created_on>
-        <sys_id>fc840c8047903110161c2d82e36d439c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>formatter5</sys_name>
+        <sys_created_on>2023-07-27 13:51:27</sys_created_on>
+        <sys_id>434f20ed47d07110161c2d82e36d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional Details?</sys_name>
         <sys_package display_value="MyCatalogItems" source="060a3bb747403110161c2d82e36d437f">060a3bb747403110161c2d82e36d437f</sys_package>
         <sys_policy/>
         <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
-        <sys_update_name>item_option_new_fc840c8047903110161c2d82e36d439c</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-07-24 16:44:05</sys_updated_on>
+        <sys_update_name>item_option_new_434f20ed47d07110161c2d82e36d4328</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 13:51:27</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>12</type>
+        <type>2</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -103,22 +103,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=fc840c8047903110161c2d82e36d439c"/>
-    <fx_price action="delete_multiple" query="id=fc840c8047903110161c2d82e36d439c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=434f20ed47d07110161c2d82e36d4328"/>
+    <fx_price action="delete_multiple" query="id=434f20ed47d07110161c2d82e36d4328"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>fc840c8047903110161c2d82e36d439c</id>
+        <id>434f20ed47d07110161c2d82e36d4328</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-22 18:51:56</sys_created_on>
-        <sys_id>3c840c8047903110161c2d82e36d439f</sys_id>
+        <sys_created_on>2023-07-27 13:51:27</sys_created_on>
+        <sys_id>48bfeced47d07110161c2d82e36d438b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-22 18:51:56</sys_updated_on>
+        <sys_updated_on>2023-07-27 13:51:27</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -126,16 +126,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>fc840c8047903110161c2d82e36d439c</id>
+        <id>434f20ed47d07110161c2d82e36d4328</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-07-22 18:51:56</sys_created_on>
-        <sys_id>b0840c8047903110161c2d82e36d439f</sys_id>
+        <sys_created_on>2023-07-27 13:51:27</sys_created_on>
+        <sys_id>c8bfeced47d07110161c2d82e36d438a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-07-22 18:51:56</sys_updated_on>
+        <sys_updated_on>2023-07-27 13:51:27</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
