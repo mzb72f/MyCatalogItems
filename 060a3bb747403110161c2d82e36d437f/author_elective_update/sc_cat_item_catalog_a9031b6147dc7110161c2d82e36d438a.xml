@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Copy of Create ServiceNow User ID">2d039f2147dc7110161c2d82e36d436b</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 01:45:05</sys_created_on>
+        <sys_id>a9031b6147dc7110161c2d82e36d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Create ServiceNow User ID</sys_name>
+        <sys_package display_value="MyCatalogItems" source="060a3bb747403110161c2d82e36d437f">060a3bb747403110161c2d82e36d437f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a9031b6147dc7110161c2d82e36d438a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 01:45:05</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</application>
+        <file_path/>
+        <instance_id>8fa5e9b1db6dfa007e55d5b0cf961929</instance_id>
+        <instance_name>dev31767</instance_name>
+        <name>sc_cat_item_catalog_a9031b6147dc7110161c2d82e36d438a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Create ServiceNow User ID">2d039f2147dc7110161c2d82e36d436b</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-28 01:45:05</sys_created_on><sys_id>a9031b6147dc7110161c2d82e36d438a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Copy of Create ServiceNow User ID</sys_name><sys_package display_value="MyCatalogItems" source="060a3bb747403110161c2d82e36d437f">060a3bb747403110161c2d82e36d437f</sys_package><sys_policy/><sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope><sys_update_name>sc_cat_item_catalog_a9031b6147dc7110161c2d82e36d438a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-28 01:45:05</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1086962724</payload_hash>
+        <record_name>Service Catalog.Copy of Create ServiceNow User ID</record_name>
+        <reverted_from/>
+        <source>ac7a777747403110161c2d82e36d4385</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 01:45:05</sys_created_on>
+        <sys_id>61031b6147dc7110161c2d82e36d438e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1899a2bc0930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 01:45:05</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>a5031b6118dc7110caa2540094cf258d</update_guid>
+        <update_guid_history>a5031b6118dc7110caa2540094cf258d:1086962724</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Copy of Create ServiceNow User ID">0ae8c6fd4758b110161c2d82e36d43f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-28 14:59:44</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1a76c8fbb22f465685c1f0d5e6c7e944</sys_id>
+        <sys_metadata>a9031b6147dc7110161c2d82e36d438a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Copy of Create ServiceNow User ID</sys_name>
+        <sys_package display_value="MyCatalogItems" source="060a3bb747403110161c2d82e36d437f">060a3bb747403110161c2d82e36d437f</sys_package>
+        <sys_parent display_value="">2d039f2147dc7110161c2d82e36d436b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
+        <sys_scope_delete display_value="">25301d28927f40208e7729862208a400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_a9031b6147dc7110161c2d82e36d438a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_a9031b6147dc7110161c2d82e36d438a">61031b6147dc7110161c2d82e36d438e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-28 14:59:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

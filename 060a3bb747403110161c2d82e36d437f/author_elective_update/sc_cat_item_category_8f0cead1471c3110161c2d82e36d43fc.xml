@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Create ServiceNow User ID">bd1b3b3b47403110161c2d82e36d437d</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 04:16:18</sys_created_on>
+        <sys_id>8f0cead1471c3110161c2d82e36d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Create ServiceNow User ID</sys_name>
+        <sys_package display_value="MyCatalogItems" source="060a3bb747403110161c2d82e36d437f">060a3bb747403110161c2d82e36d437f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
+        <sys_update_name>sc_cat_item_category_8f0cead1471c3110161c2d82e36d43fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 04:16:18</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</application>
+        <file_path/>
+        <instance_id>8fa5e9b1db6dfa007e55d5b0cf961929</instance_id>
+        <instance_name>dev31767</instance_name>
+        <name>sc_cat_item_category_8f0cead1471c3110161c2d82e36d43fc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Create ServiceNow User ID">bd1b3b3b47403110161c2d82e36d437d</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 04:16:18</sys_created_on>
+        <sys_id>8f0cead1471c3110161c2d82e36d43fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Create ServiceNow User ID</sys_name>
+        <sys_package display_value="MyCatalogItems" source="060a3bb747403110161c2d82e36d437f">060a3bb747403110161c2d82e36d437f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
+        <sys_update_name>sc_cat_item_category_8f0cead1471c3110161c2d82e36d43fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 04:16:18</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>920227837</payload_hash>
+        <record_name>Services.Create ServiceNow User ID</record_name>
+        <reverted_from/>
+        <source>4f8092ad47987110161c2d82e36d4384</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 20:54:49</sys_created_on>
+        <sys_id>7d90d6ad47987110161c2d82e36d4351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189992201440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 20:54:49</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>3990d6adcf98711078b342b3ea469451</update_guid>
+        <update_guid_history>3990d6adcf98711078b342b3ea469451:0,ffe3a9e58fd4711056783112a5d51720:-28994223,c71f022d149871106ec4f690d3aa4c83:0,ffe3a9e58fd4711056783112a5d51720:-28994223,0cbe0ea95c987110adb4dd075952f77c:0,ffe3a9e58fd4711056783112a5d51720:-28994223,400e06695d987110baf3a90c25879f26:0,ffe3a9e58fd4711056783112a5d51720:-28994223,cb0cead1271c3110fe3fe526df50e3ff:884709597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-27 20:58:38</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>43dc5d2ed99a476bb893a8be078307e1</sys_id>
+        <sys_metadata>8f0cead1471c3110161c2d82e36d43fc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Create ServiceNow User ID</sys_name>
+        <sys_package display_value="MyCatalogItems" source="060a3bb747403110161c2d82e36d437f">060a3bb747403110161c2d82e36d437f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyCatalogItems">060a3bb747403110161c2d82e36d437f</sys_scope>
+        <sys_scope_delete display_value="">25301d28927f40208e7729862208a400</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_8f0cead1471c3110161c2d82e36d43fc</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_8f0cead1471c3110161c2d82e36d43fc">7d90d6ad47987110161c2d82e36d4351</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-27 20:58:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
